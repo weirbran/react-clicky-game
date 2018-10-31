@@ -12,12 +12,12 @@ import Score from "./Score";
 // We use JSX curly braces to evaluate the style object on the JSX tag
 
 const Navbar = () => (
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">
+  <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <a className="navbar-brand" href="index.html">
       Clicky Game
     </a>
     <ul className="navbar-nav ml-5">
-      <li class="guessed" />
+      <li className="guessed" />
       <Score />
     </ul>
   </nav>
